@@ -57,3 +57,13 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+#about2{
+    display: none;
+}
+
+#about h2:hover{
+    color: purple;
+    cursor: pointer;
+    border-bottom: 1px solid red;
+}
