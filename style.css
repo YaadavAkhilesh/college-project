@@ -145,6 +145,7 @@ footer {
 }
 
 
+
 #project2{
     display: none;
 }
@@ -192,6 +193,10 @@ footer {
     #education2{
         font-size: 10px;
     }
+    #edu_table{
+        width: 70%;
+    }
+    
 
 
     #projects h2{
