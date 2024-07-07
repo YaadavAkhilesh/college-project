@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
 }
 html {
     scroll-behavior: smooth;
@@ -27,18 +27,22 @@ nav ul li {
 }
 
 nav ul li a {
+    font-size: 16px;
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
+
+
 #hero {
-    background: url('https://cdn-blog.novoresume.com/articles/minimalistic-resume-templates/bg-mid.png') no-repeat center center/cover;
+    background: url('bg-mid.png') no-repeat center center/cover;
+    font-size: 18px;
     color: white;
     text-align: center;
-    padding: 5em 0;
+    /* padding: 5em 0; */
 
-    height: 30vmin;
+    height: 320px;
 }
 
 section {
@@ -49,10 +53,11 @@ section {
 }
 
 footer {
+    font-size: 16px;
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 1em 0;
+    text-align: center; 
+    /* padding: 1em 0; */
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -63,7 +68,144 @@ footer {
 }
 
 #about h2:hover{
-    color: purple;
+    color: rgb(100 20 140);
     cursor: pointer;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid black;
 }
+
+#about2 img{
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+}
+
+
+
+#about2 > p:nth-child(4){
+    align-items: center;
+    display: flex;
+}
+#about2 > p:nth-child(4) > svg{
+    padding: 0px 5px 0px 0px;
+}
+#about2 > p:nth-child(4):hover{
+    /* border-bottom: 1px solid black; */
+    /* display: inline; */
+    color: blue;
+}
+
+
+
+#about2 > p:nth-child(5){
+    font-weight: 500; 
+    align-items: center; 
+    display:flex; 
+}
+#about2 > p:nth-child(5) > svg{
+    padding: 0px 5px 0px 0px;
+}
+#about2 > p:nth-child(5) > a{
+    text-decoration: none;
+    color: black;
+}
+#about2 > p:nth-child(5) > a:hover{
+    color: blue;
+}
+
+
+
+#about2 > p:nth-child(6){
+    align-items: center;
+    display: flex;
+}
+#about2 > p:nth-child(6) > svg{
+    padding: 0px 5px 0px 0px;
+}
+#about2 > p:nth-child(6) > a{
+    text-decoration: none;
+    color: black;
+}
+#about2 > p:nth-child(6) > a:hover{
+    color: blue;
+}
+
+
+
+#education2{
+    display: none;
+}
+#education2 table{
+    border-collapse: collapse;
+    text-align: center;
+}
+#education h2:hover{
+    color: rgb(100 20 140);
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+
+#project2{
+    display: none;
+}
+
+#projects h2:hover{
+    color: rgb(100 20 140);
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+/* For devices with width smaller than 400px */
+@media only screen and (max-width: 800px) {
+    nav ul li a {
+        font-size: 10px;
+    }
+    
+    #hero{
+      font-size: 7px; 
+      height: 235px;
+    }
+
+
+    #about h2{
+        font-size: 14px;
+    }
+    #about1{
+        font-size: 10px;
+    } 
+    #about2{
+        font-size: 10px;
+    } 
+
+
+    #education h2{
+        font-size: 14px;
+    }
+    #education1{
+        font-size: 10px;
+    }
+    #education2{
+        font-size: 10px;
+    }
+
+
+    #projects h2{
+        font-size: 14px;
+    }
+    #project1{
+        font-size: 10px;
+    }
+    #project2{
+        font-size: 10px;
+    }
+
+
+    footer {
+        font-size: 10px;
+    }
+  }
