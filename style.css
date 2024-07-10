@@ -57,10 +57,11 @@ footer {
     background-color: #333;
     color: white;
     text-align: center; 
-    /* padding: 1em 0; */
-    position: fixed;
+    padding: 1em 0;
+
+    /* position: fixed;
     width: 100%;
-    bottom: 0;
+    bottom: 0; */
 }
 
 #about2{
@@ -77,9 +78,8 @@ footer {
     height: 120px;
     width: 120px;
     border: 1px solid black;
+    display: block;
 }
-
-
 
 #about2 > p:nth-child(4){
     align-items: center;
@@ -168,8 +168,10 @@ footer {
     }
     
     #hero{
-      font-size: 7px; 
+      font-size: 14px; 
       height: 235px;
+      /* height: auto; */
+      /* padding: 2em 0; */
     }
 
 
@@ -182,6 +184,10 @@ footer {
     #about2{
         font-size: 10px;
     } 
+    #about2 img{
+        height: 100px;
+        width: 100px;
+    }
 
 
     #education h2{
