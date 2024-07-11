@@ -62,9 +62,14 @@ footer {
     text-align: center; 
     padding: 1em 0;
 
-    position: fixed;
-    /* width: 100%; */
+    position: relative;
+    width: 100%;
     bottom: 0; 
+}
+
+
+#about, #education, #projects{
+    font-size: 16px;
 }
 
 
@@ -189,8 +194,8 @@ footer {
 
 
 
-/* For devices with width smaller than 800px */
-@media only screen and (max-width: 800px) {
+/* For devices with width smaller than 768px */
+@media only screen and (max-width: 768px) {
     nav ul li a {
         font-size: 10px;
     }
@@ -202,6 +207,10 @@ footer {
       /* padding: 2em 0; */
     }
 
+
+    #about, #education, #projects{
+        font-size: 12px;
+    }
 
     #about h2{
         font-size: 14px;
