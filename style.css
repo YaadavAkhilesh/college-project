@@ -207,6 +207,9 @@ footer {
     }
     
     #hero{
+      background: url('bg-mid.png') no-repeat center center/cover;
+      color: white;
+      text-align: center;
       font-size: 14px; 
       height: 235px;
       padding: 0;
