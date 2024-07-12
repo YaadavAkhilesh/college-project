@@ -208,19 +208,17 @@ footer {
     
     #hero{
       background: url('bg-mid.png') no-repeat center center/cover;
-      color: white;
       text-align: center;
       font-size: 14px; 
+      color: white;
       height: 235px;
       padding: 0;
-    
-      /* height: 320px; */
+    } 
+
+    #hero h1{
+        padding-top: 71px;
+        font-size: 16px;
     }
-
-
-    /* #about, #education, #projects{
-        font-size: 12px;
-    } */
 
     #about h2{
         font-size: 16px;
