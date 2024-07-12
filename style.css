@@ -209,6 +209,9 @@ footer {
     #hero{
       font-size: 14px; 
       height: 235px;
+      padding: 0;
+    
+      /* height: 320px; */
     }
 
 
@@ -226,8 +229,8 @@ footer {
         font-size: 10px;
     } 
     #about2 img{
-        height: 80px;
-        width: 80px;
+        height: 75px;
+        width: 75px;
     }
     #about2 > p:nth-child(4) > svg{
         height: 20px;
