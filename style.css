@@ -140,7 +140,7 @@ footer {
 }
 #about2 > p:nth-child(5) > a{
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 #about2 > p:nth-child(5) > a:hover{
     color: blue;
@@ -159,7 +159,7 @@ footer {
 }
 #about2 > p:nth-child(6) > a{
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 #about2 > p:nth-child(6) > a:hover{
     color: blue;
